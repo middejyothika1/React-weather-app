@@ -1,0 +1,52 @@
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-image: url("cloud.jpg"); */
+  background-color: lightblue;
+  padding: 20px;
+  
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.inputform label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.inputform input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inputform button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputform button:hover {
+  background-color: #0056b3;
+}
+
+.map-container {
+  width: 100%;
+}
